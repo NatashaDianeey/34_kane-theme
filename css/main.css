@@ -150,3 +150,32 @@
 .dis-abs{
 	display: absolute;
 }
+
+.list-group-item-trans{
+	background-color: transparent;
+	border:1px solid #fff;
+	margin-left: 10%;
+	padding: 10%;
+	list-style: none;
+}
+.list-group-item-brown{
+	background-color: #804000;
+	border:1px solid #fff;
+	margin-left: 10%;
+	padding: 2%;
+	list-style: none;
+}
+.list-group-item-green{
+	background-color: green;
+	border:1px solid #fff;
+	margin-left: 10%;
+	padding: 14%;
+	list-style: none;
+}
+.list-group-item-blanck{
+	background-color: #fff;
+	margin-left: 10%;
+	border-bottom: 1px solid #dddddd;
+	padding: 2%;
+	list-style: none;
+}
