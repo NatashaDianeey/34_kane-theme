@@ -8,8 +8,6 @@
 	background-color:transparent;
 	font-size: 3em;
 	color: #000;
-
-
 }	
 
 /*HEADER*/
@@ -130,3 +128,13 @@
 	background-color: #DC403B;
 }
 /*SECTION  3*/
+.bkg-blue{
+	background-color: #000033;
+	width: 100%;
+	height: 500%;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+}
