@@ -10,14 +10,21 @@
 ul{
 	padding: 2% 1% 2% 0%;
 }
+h2{
+	color: gray;
+}
 hr{
 	width: 30%;
+	border:1px solid gray;
 }
 a{
 	color: white;
 }
 .marg-lefyrigh{
 	padding:0% 10%;
+}
+.marg-topybott{
+	padding:3% 0%;
 }
 /*HEADER*/
 .bkg-green-nav {
@@ -38,15 +45,17 @@ li .active{
 
 }
 /*SECTION  1*/
-
-
 .bkg-img-1{
 	background-image: url("../img/carousel-bg.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 400px;
-	padding-top: -200px;
+	height: 450px;
+	margin-bottom: 8%;
+}
+h3{
+	font-weight: 400;	
+	padding: 0% 10% 0% 10%;
 }
 /*SECTION  2*/
 .color-1{
@@ -219,6 +228,7 @@ li .active{
 	color: white;
 	border-radius: 0%;
 }
+/*FOOTER*/
 .mensj{
 	color: yellow;
 }
@@ -229,8 +239,50 @@ button{
 	margin-top:8%;
 }
 
-@media  screen and (min-width: 480px) and (max-width: 844px) {
-  p span{
+@media  screen and (min-width: 0px) and (max-width: 844px) {
+.row{
+	margin:  0% 0% -8% 0%;
+}
+.bkg-img-1{
+	height: 330px;
+}
+.jumbotron{
+	font-size: 2em
+}
+h3{
+	font-size: 1.2em;
+	padding: 0% 5%;
+}
+.color-1{
+	width: 65%;
+	height: 60px;
+	margin-left: 35%;
+	text-align: center;
+	margin-bottom: 3.3%;
+}
+.color-12{
+	width: 65%;
+	height: 60px;
+	margin-right: 30%;
+	text-align: center;
+	margin-bottom: 3.3%;
+}
+.color{
+	width:100%;
+	height: 60px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+
+
+
+p {
   	font-size: 	.7em;
   }
+button{
+  	width: 50%;
+  }
+
   }

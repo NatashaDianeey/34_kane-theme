@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link href="css/slick-theme.min.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
@@ -45,8 +47,8 @@
             </header>
             <section> <!-- bkg-image y texto blanco encima -->
                 <div class="row">
-                    <div class="col-xs-12 bkg-img-1">
-                        <h1 class="jumbotron"> BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</h1>
+                    <div class="col-xs-12 bkg-img-1 text-center">
+                        <h1 class="jumbotron"> BEAUTIFUL COLOR PALETTES FOR <br> YOUR NEXT WEB PROJECT</h1>
                         <h3>Choosing the right color schreme is essential to your website´s success. Your layput and other design choices - including font - should be developed in concert with your coolor scheme to ensure readability, cohesiveness and beauty in the final products.</h3>
                     </div>
                 </div>
@@ -54,11 +56,11 @@
             <section> <!-- section 2 cuadros con fondo blanco PICK YOUR COLOR PALETTE -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>PICK YOUR COLOR PALETTE</h2>
+                        <h2 class="text-center">PICK YOUR COLOR PALETTE</h2>
                         <hr>
                     </div>
                 </div>
-                <div class="row"> <!-- CUADROS DE COLORES-->
+                <div class="row marg-topybott"> <!-- CUADROS DE COLORES-->
                     <div class="col-xs-3"><!-- primer fila de cuadros de colores-->
                         <div class="color-1 color1">
                             #69D2E7 
@@ -149,10 +151,10 @@
             <section> <!-- bkg-blue ABOUT US -->
                 <div class="row">
                     <div class="col-xs-12 bkg-blue">
-                        <h2 class="text-center">ABOUT US</h2>
+                        <h2 class="text-center marg-topybott">ABOUT US</h2>
                         <hr>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6 marg-lefyrigh">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur voluptate consectetur distinctio dignissimos ullam placeat repellat et ad id, autem reiciendis accusantium in praesentium saepe, incidunt eum adipisci temporibus.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur voluptate consectetur distinctio dignissimos ullam placeat repellat et ad id, autem reiciendis accusantium in praesentium saepe, incidunt eum adipisci temporibus.</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque aspernatur voluptate consectetur distinctio dignissimos ullam placeat repellat et ad id, autem reiciendis accusantium in praesentium saepe, incidunt eum adipisci temporibus.</p>
@@ -182,7 +184,7 @@
                                 </div> 
                                 <div><p>PHOTOSHOP/ILUSTRATOR</p></div>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6">
                                 <img class="img1" src="img/agency-img3.jpg" alt="img">
                             </div>
                         </div>
@@ -469,7 +471,7 @@
                             <input type="text" class="form-control" placeholder="Enter Email" aria-describedby="basic-addon1">
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-gray">Suscribe Now!</button> 
+                            <button class="btn btn-gray"><p>Suscribe Now!</p></button> 
                         </div>
                     </div>
                     <div class="row">
@@ -486,5 +488,21 @@
         <!-- BOOTSTRAP JAVASCRIPT -->
         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/html5-respond.js"></script>
+        <script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="./js/respond.js"></script>
+        <script type="text/javascript" src="./js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.one-time').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    adaptiveHeight: true
+                });
+            });
+  </script>
     </body>
 </html>
