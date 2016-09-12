@@ -129,7 +129,7 @@
 }
 /*SECTION  3*/
 .bkg-blue{
-	background-color: #000033;
+	background-color: #33334d;
 	width: 100%;
 	height: 500%;
 }
@@ -137,4 +137,16 @@
 	width: 100%;
 	height: 100%;
 	padding: 10%;
+}
+/*SECTION  4*/
+.bkg-green{
+	background-color: #009933;
+	width: 100%;
+	height: 100%;
+}
+.dis-rel{
+	display: relative;
+}
+.dis-abs{
+	display: absolute;
 }
